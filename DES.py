@@ -1,9 +1,5 @@
 '''@ DES加密解密代码实现'''
 '''@ 需要与DES_BOX放置同一目录下运行'''
-'''int ord chr bin'''
-''' encoding='utf-8' '''
-'''不是在前一轮的基础上移动，是在最初始的key上移动''' 
-'''对密文的空格replace导致结果出错'''
 from DES_BOX import*
 
 def read_file(filename): 
